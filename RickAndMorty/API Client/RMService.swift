@@ -29,7 +29,7 @@ final class RMService {
             completion(.failure(RMServiceError.failedToCreateRequest))
             return
         }
-        print("URL is \(urlRequest.url)")
+       // print("URL is \(urlRequest.url)")
         let task = URLSession.shared.dataTask(with: urlRequest) { data, _, error in
             guard let data = data, error == nil else {
                 completion(.failure(RMServiceError.failedToGetData))
