@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADDBA24229BB499600102BA2 /* RMEpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBA24129BB499600102BA2 /* RMEpisodeDetailViewController.swift */; };
 		ADDCDCDA29AA110F00AA0EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCDCD929AA110F00AA0EAD /* AppDelegate.swift */; };
 		ADDCDCDC29AA110F00AA0EAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCDCDB29AA110F00AA0EAD /* SceneDelegate.swift */; };
 		ADDCDCDE29AA110F00AA0EAD /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCDCDD29AA110F00AA0EAD /* RMTabBarController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADDBA24129BB499600102BA2 /* RMEpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeDetailViewController.swift; sourceTree = "<group>"; };
 		ADDCDCD629AA110F00AA0EAD /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDCDCD929AA110F00AA0EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDCDCDB29AA110F00AA0EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				ADDCDD1B29AB38DE00AA0EAD /* RMCharacterDetailViewController.swift */,
+				ADDBA24129BB499600102BA2 /* RMEpisodeDetailViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				ADDCDCF929AA166B00AA0EAD /* RMEpisode.swift in Sources */,
 				ADDCDD1029AA7F4200AA0EAD /* RMGetAllCharactersResponse.swift in Sources */,
 				ADDCDD1629AA90A400AA0EAD /* Extensions.swift in Sources */,
+				ADDBA24229BB499600102BA2 /* RMEpisodeDetailViewController.swift in Sources */,
 				ADDCDD1A29AA98AF00AA0EAD /* RmCharacterCollectionViewCellViewModel.swift in Sources */,
 				ADDCDCFC29AA172D00AA0EAD /* RMEpisodeViewController.swift in Sources */,
 				ADDCDCDE29AA110F00AA0EAD /* RMTabBarController.swift in Sources */,
